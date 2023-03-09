@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Trive",
+  "version": "0.0.67",
+  "description": "Additional buttons on Twitter",
+
+  "icons": {
+    "16": "images/logo.png",
+    "32": "images/logo.png",
+    "48": "images/logo.png",
+    "128": "images/logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["main.js"],
+      "css": ["main.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

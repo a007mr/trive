@@ -1,0 +1,14 @@
+.tribeforce__buttons {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  background-color: blueviolet;
+  border-radius: 5px;
+  border-color: transparent;
+  font-size: 20px;
+}
+
+.tribeforce__button {
+  color: #fff;
+  font-size: 20px;
+}
